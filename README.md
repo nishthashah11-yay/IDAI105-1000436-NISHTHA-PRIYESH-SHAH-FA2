@@ -9,8 +9,8 @@ An interactive, AI-driven Business Intelligence dashboard built with **Streamlit
 ---
 
 ## 🎓 **Academic Details**
-* **Developer:** Zene-Sophie-Anand
-* **WACP No:** 1000442
+* **Developer:** NISHTHA PRIYESH SHAH
+* **WACP No:** 1000436 
 * **CRS:** Python / Artificial Intelligence
 * **Course:** IBCP (AI)
 * **Institution:** Aspen Nutan Academy

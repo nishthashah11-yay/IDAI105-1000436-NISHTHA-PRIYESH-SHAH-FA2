@@ -1,4 +1,3 @@
-
 # 🏦 FA-2: ATM Intelligence Demand Forecasting
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://idai105-1000442-zene-sophie-anand-fa2.streamlit.app/)
@@ -10,8 +9,8 @@ An interactive, AI-driven Business Intelligence dashboard built with **Streamlit
 ---
 
 ## 🎓 **Academic Details**
-* **Developer:** Nishtha-Priyesh-Shah
-* **WACP No:** 1000436
+* **Developer:** Zene-Sophie-Anand
+* **WACP No:** 1000442
 * **CRS:** Python / Artificial Intelligence
 * **Course:** IBCP (AI)
 * **Institution:** Aspen Nutan Academy
@@ -38,7 +37,8 @@ The primary goal of this project is to optimize cash replenishment strategies fo
 ### 🎯 **2. ATM Clustering (K-Means)**
 * **Algorithm:** K-Means Clustering (`scikit-learn`).
 * **Process:** Standardized the `Total_Withdrawals` and `Total_Deposits` features and grouped the ATMs into **3 distinct clusters**.
-* **Business Labels Applied:** * 🔴 *High-Demand:* Requires multi-day or frequent cash stocking.
+* **Business Labels Applied:** 
+  * 🔴 *High-Demand:* Requires multi-day or frequent cash stocking.
   * 🔵 *Steady-Demand:* Predictable, baseline cash requirements.
   * 🟢 *Low-Demand:* Holds idle cash that can be optimized or rerouted.
 
@@ -48,7 +48,15 @@ The primary goal of this project is to optimize cash replenishment strategies fo
 * **Business Value:** Automatically flags highly unusual withdrawal events (often correlating with holidays or local events) that deviate from the standard baseline, allowing the bank to proactively prevent cash shortages.
 
 ---
+## 📸 UI Screenshots
 
+| Part 1 | Part 2 | Part 3 |
+| :---: | :---: | :---: |
+| <img src="SCREEN%20SHOT/%231.png" width="250"/><br>**1. Project Scope & Overview** | <img src="SCREEN%20SHOT/%232.png" width="250"/><br>**2. Exploratory Data Analysis** | <img src="SCREEN%20SHOT/%233.png" width="250"/><br>**3. Clustering / Segmentation** |
+| <img src="SCREEN%20SHOT/%234.png" width="250"/><br>**4. Association Rules** | <img src="SCREEN%20SHOT/%235.png" width="250"/><br>**5. Anomaly Detection** | <img src="SCREEN%20SHOT/%236.png" width="250"/><br>**6. Data Visualizations** |
+| <img src="SCREEN%20SHOT/%237.png" width="250"/><br>**7. Interactive Dashboard** | | |
+
+---
 ## 💡 **Key Business Insights Generated**
 1. **Holiday Volatility:** Withdrawals show massive demand spikes on and immediately preceding recorded holidays.
 2. **Location-Based Strategy:** Urban and heavy commercial zones correlate strongly with the 'High-Demand' K-Means cluster.
@@ -59,7 +67,7 @@ The primary goal of this project is to optimize cash replenishment strategies fo
 ## 📂 **Repository Structure**
 
 ```text
-IDAI105(1000436)-nishtha-priyesh-shah/
+IDAI105(1000442)-zene-sophie-anand/
 │
 ├── app.py                 # Main Streamlit dashboard and ML pipeline
 ├── requirements.txt       # Python library dependencies
